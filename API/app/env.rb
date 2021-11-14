@@ -24,8 +24,6 @@ require_rel './models'
 include RSpec::Matchers
 include DataMagic
 
-SHORT_TIMEOUT = ENV['SHORT_TIMEOUT'].to_i
-DEFAULT_TIMEOUT = ENV['DEFAULT_TIMEOUT'].to_i
 $root_directory = Dir.pwd
 $download_path = "#{$root_directory}/data/downloads/"
 
