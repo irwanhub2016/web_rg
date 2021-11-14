@@ -69,11 +69,6 @@ Report will generated in folder `report` with filename features_reports.html. Op
 ### Notes
 This test use capybara library to find an element and Rspec doing expectation.
 
-### Issue
-* There is only an issue from **firefox browser** when i run all scenarios at the same time want and when to switch from from second(child) level frame to main page step.
-* But if run scenario one by one `features/purchase.feature:11` then `features/purchase.feature:12` it does not matter
-* Related to mozilla bug _Browsing context has been discarded after "WebDriver:SwitchToFrame"_.  
-
 ### ⏺ Requirement for API Test
 * Assume you are using environment macOS. For this case i'm using macOS and Ruby 2.5.1
 * Make sure Ruby has been installed by following the instructions above
