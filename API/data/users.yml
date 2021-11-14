@@ -1,0 +1,14 @@
+users_default:
+  user:
+    name: &name ~full_name
+    full_name: *name
+    roles: ['report_reader',
+            'ultimate',
+            'administrator',
+            'banker',
+            'sales',
+            'purchasing',
+            'expenses',
+            'stockist',
+            'accountant',
+            'list_manager']
